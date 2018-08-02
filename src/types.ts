@@ -1,7 +1,8 @@
 export type intAsString = string;
 export type floatAsString = string;
 export type booleanAsInt = 0 | 1;
-export enum Status { Active = 'Active', Deactivated = 'Deactivated'}
+export enum Status { Active = 'Active', Deactivated = 'Deactivated' }
+export enum OutcomeMarker { Home = 'Home', Draw = 'Draw' , Away = 'Away' }
 
 export interface Outcome {
   id: number;
@@ -11,6 +12,10 @@ export interface Outcome {
   active: boolean;
 }
 
+export interface OutcomeGroup {
+  [id: string]: Outcome[];
+}
+
 export interface Market {
   id: number;
   name: string;
@@ -18,7 +23,7 @@ export interface Market {
   specifiers: string;
   status: Status;
   favourite: booleanAsInt;
-  Outcomes: Outcome[];
+  Outcomes: Outcome[] | OutcomeGroup[];
 }
 
 export interface MarketFormat {
