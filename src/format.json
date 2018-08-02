@@ -1,0 +1,506 @@
+[
+  {
+    "marketType": 1,
+    "specifiers": "",
+    "displayName": "Full Time Result",
+    "weight": 1,
+    "category": "Main"
+  },
+  {
+    "marketType": 8,
+    "specifiers": "goalnr=1",
+    "displayName": "Who Will Score First?",
+    "weight": 2,
+    "category": "Main"
+  },
+  {
+    "marketType": 10,
+    "specifiers": "",
+    "displayName": "Double Chance",
+    "weight": 2,
+    "category": "Main"
+  },
+  {
+    "marketType": 14,
+    "specifiers": "hcp=1:0",
+    "displayName": "Handicap score 1:0",
+    "weight": 1,
+    "category": "Handicaps"
+  },
+  {
+    "marketType": 14,
+    "specifiers": "hcp=0:1",
+    "displayName": "Handicap score 0:1",
+    "weight": 1,
+    "category": "Handicaps"
+  },
+  {
+    "marketType": 14,
+    "specifiers": "hcp=2:0",
+    "displayName": "Handicap score 2:0",
+    "weight": 1,
+    "category": "Handicaps"
+  },
+  {
+    "marketType": 14,
+    "specifiers": "hcp=0:2",
+    "displayName": "Handicap score 0:2",
+    "weight": 1,
+    "category": "Handicaps"
+  },
+  {
+    "marketType": 16,
+    "specifiers": "hcp=0",
+    "displayName": "Total match goals Over 0 Goals",
+    "weight": 1,
+    "category": "Handicaps"
+  },
+  {
+    "marketType": 16,
+    "specifiers": "hcp=-0",
+    "displayName": "Total match goals Under 0 Goals",
+    "weight": 1,
+    "category": "Handicaps"
+  },
+  {
+    "marketType": 16,
+    "specifiers": "hcp=1",
+    "displayName": "Total match goals Over 1 Goals",
+    "weight": 1,
+    "category": "Handicaps"
+  },
+  {
+    "marketType": 16,
+    "specifiers": "hcp=-1",
+    "displayName": "Total match goals Under 1 Goals - REMOVE",
+    "weight": 1,
+    "category": "Remove"
+  },
+  {
+    "marketType": 16,
+    "specifiers": "hcp=0.25",
+    "displayName": "Total match goals Over .25 Goals - REMOVE",
+    "weight": 1,
+    "category": "Remove"
+  },
+  {
+    "marketType": 16,
+    "specifiers": "hcp=-0.25",
+    "displayName": "Total match goals Under .25 Goals - REMOVE",
+    "weight": 1,
+    "category": "Remove"
+  },
+  {
+    "marketType": 16,
+    "specifiers": "hcp=0.5",
+    "displayName": "Total match goals Over .50 Goals",
+    "weight": 1,
+    "category": "Handicaps"
+  },
+  {
+    "marketType": 16,
+    "specifiers": "hcp=-0.5",
+    "displayName": "Total match goals Under .50 Goals",
+    "weight": 1,
+    "category": "Handicaps"
+  },
+  {
+    "marketType": 16,
+    "specifiers": "hcp=0.75",
+    "displayName": "Total match goals Over .75 Goals - REMOVE",
+    "weight": 1,
+    "category": "Remove"
+  },
+  {
+    "marketType": 16,
+    "specifiers": "hcp=-0.75",
+    "displayName": "Total match goals Under .75 Goals - REMOVE",
+    "weight": 1,
+    "category": "Remove"
+  },
+  {
+    "marketType": 16,
+    "displayName": "Total match goals Under 1.75 Goals - REMOVE",
+    "specifiers": "hcp=-1.75",
+    "weight": 1,
+    "category": "Remove"
+  },
+  {
+    "marketType": 16,
+    "displayName": "Total match goals Over 1.75 Goals - REMOVE",
+    "specifiers": "hcp=1.75",
+    "weight": 1,
+    "category": "Remove"
+  },
+  {
+    "marketType": 16,
+    "specifiers": "hcp=-1.25",
+    "displayName": "Total match goals Under 1.25 Goals - REMOVE",
+    "weight": 1,
+    "category": "Remove"
+  },
+  {
+    "marketType": 16,
+    "specifiers": "hcp=1.25",
+    "displayName": "Total match goals Over 1.25 Goals - REMOVE",
+    "weight": 1,
+    "category": "Remove"
+  },
+  {
+    "marketType": 16,
+    "specifiers": "hcp=1.5",
+    "displayName": "Total match goals Over 1.5 Goals",
+    "weight": 1,
+    "category": "Handicaps"
+  },
+  {
+    "marketType": 16,
+    "specifiers": "hcp=-2",
+    "displayName": "Total match goals Under 2 Goals - Remove",
+    "weight": 1,
+    "category": "Remove"
+  },
+  {
+    "marketType": 16,
+    "specifiers": "hcp=-2.25",
+    "displayName": "Total match goals Under 1.5 Goals REMOVE",
+    "weight": 1,
+    "category": "Remove"
+  },
+  {
+    "marketType": 16,
+    "specifiers": "hcp=-1.5",
+    "displayName": "Total match goals Under 1.5 Goals",
+    "weight": 1,
+    "category": "Handicaps"
+  },
+  {
+    "marketType": 16,
+    "specifiers": "hcp=-2.5",
+    "displayName": "Total match goals Under 2.5 Goals",
+    "weight": 1,
+    "category": "Handicaps"
+  },
+  {
+    "marketType": 16,
+    "specifiers": "hcp=-2.75",
+    "displayName": "Total match goals Under 2.75 Goals - REMOVE",
+    "weight": 1,
+    "category": "Remove"
+  },
+  {
+    "marketType": 18,
+    "specifiers": "total=0.5",
+    "displayName": "Goals Over/Under 0.5",
+    "weight": 1,
+    "category": "Totals"
+  },
+  {
+    "marketType": 18,
+    "specifiers": "total=1.5",
+    "displayName": "Goals Over/Under 1.5",
+    "weight": 1,
+    "category": "Totals"
+  },
+  {
+    "marketType": 18,
+    "specifiers": "total=2.5",
+    "displayName": "Goals Over/Under 2.5",
+    "weight": 1,
+    "category": "Totals"
+  },
+  {
+    "marketType": 18,
+    "specifiers": "total=3.5",
+    "displayName": "Goals Over/Under 3.5",
+    "weight": 1,
+    "category": "Totals"
+  },
+  {
+    "marketType": 18,
+    "specifiers": "total=4.5",
+    "displayName": "Goals Over/Under 4.5",
+    "weight": 1,
+    "category": "Totals"
+  },
+  {
+    "marketType": 18,
+    "specifiers": "total=5.5",
+    "displayName": "Goals Over/Under 5.5",
+    "weight": 1,
+    "category": "Totals"
+  },
+  {
+    "marketType": 18,
+    "specifiers": "total=3.75",
+    "displayName": "Goals Over/Under 3.75 - REMOVE",
+    "weight": 1,
+    "category": "Remove"
+  },
+  {
+    "marketType": 18,
+    "specifiers": "total=1.75",
+    "displayName": "Goals Over/Under 1.75 - REMOVE",
+    "weight": 1,
+    "category": "Remove"
+  },
+  {
+    "marketType": 18,
+    "specifiers": "total=3.25",
+    "displayName": "Goals Over/Under 3.25 - REMOVE",
+    "weight": 1,
+    "category": "Remove"
+  },
+  {
+    "marketType": 18,
+    "specifiers": "total=4.25",
+    "displayName": "Goals Over/Under 4.25 - REMOVE",
+    "weight": 1,
+    "category": "Remove"
+  },
+  {
+    "marketType": 18,
+    "specifiers": "total=4",
+    "displayName": "Goals Over/Under 4 - REMOVE",
+    "weight": 1,
+    "category": "Remove"
+  },
+  {
+    "marketType": 18,
+    "specifiers": "total=2",
+    "displayName": "Goals Over/Under 2 - REMOVE",
+    "weight": 1,
+    "category": "Remove"
+  },
+  {
+    "marketType": 18,
+    "specifiers": "total=3",
+    "displayName": "Total match goals Over / Under 3 - REMOVE",
+    "weight": 1,
+    "category": "Remove"
+  },
+  {
+    "marketType": 18,
+    "specifiers": "total=2.25",
+    "displayName": "Total match goals Over / Under 2.25 - REMOVE",
+    "weight": 1,
+    "category": "Remove"
+  },
+  {
+    "marketType": 18,
+    "specifiers": "total=2.75",
+    "displayName": "Total match goals Over / Under 2.75 - REMOVE",
+    "weight": 1,
+    "category": "Remove"
+  },
+  {
+    "marketType": 19,
+    "specifiers": "total=1.5",
+    "displayName": "",
+    "weight": 4,
+    "category": "Totals"
+  },
+  {
+    "marketType": 19,
+    "specifiers": "total=2.5",
+    "displayName": "",
+    "weight": 4,
+    "category": "Totals"
+  },
+  {
+    "marketType": 20,
+    "specifiers": "total=1.5",
+    "displayName": "",
+    "weight": 4,
+    "category": "Totals"
+  },
+  {
+    "marketType": 20,
+    "specifiers": "total=0.5",
+    "displayName": "",
+    "weight": 4,
+    "category": "Totals"
+  },
+  {
+    "marketType": 20,
+    "specifiers": "total=2.5",
+    "displayName": "",
+    "weight": 4,
+    "category": "Totals"
+  },
+  {
+    "marketType": 23,
+    "specifiers": "variant=sr:exact_goals:3+",
+    "displayName": "",
+    "weight": 4,
+    "category": "Totals"
+  },
+  {
+    "marketType": 26,
+    "specifiers": "",
+    "displayName": "Odd/Even Score",
+    "weight": 3,
+    "category": "Totals"
+  },
+  {
+    "marketType": 29,
+    "displayName": "Both Teams to Score?",
+    "weight": 2,
+    "specifiers": "",
+    "category": "Scores"
+  },
+  {
+    "marketType": 30,
+    "specifiers": "",
+    "displayName": "Which Team Will Score?",
+    "weight": 3,
+    "category": "Scores"
+  },
+  {
+    "marketType": 41,
+    "displayName": "Correct Score 0:0",
+    "weight": 2,
+    "specifiers": "score=0:0",
+    "category": "Scores"
+  },
+  {
+    "marketType": 45,
+    "displayName": "Correct Score",
+    "weight": 1,
+    "specifiers": "",
+    "category": "Scores"
+  },
+  {
+    "marketType": 47,
+    "displayName": "Halftime / Fulltime Result",
+    "specifiers": "",
+    "category": "Main",
+    "weight": 2
+  },
+  {
+    "marketType": 60,
+    "specifiers": "",
+    "displayName": "Half Time Result",
+    "weight": 1,
+    "category": "Main"
+  },
+  {
+    "marketType": 68,
+    "specifiers": "total=1",
+    "displayName": "HT Total Match Goals Over / Under 1 - REMOVE",
+    "weight": 2,
+    "category": "Remove"
+  },
+  {
+    "marketType": 68,
+    "specifiers": "total=1.5",
+    "displayName": "HT Total Match Goals Over / Under 1.5",
+    "weight": 2,
+    "category": "Totals"
+  },
+  {
+    "marketType": 68,
+    "specifiers": "total=2.5",
+    "displayName": "HT Total Match Goals Over / Under 2.5",
+    "weight": 2,
+    "category": "Totals"
+  },
+  {
+    "marketType": 68,
+    "specifiers": "total=0.5",
+    "displayName": "HT Total Match Goals Over / Under .5",
+    "weight": 2,
+    "category": "Totals"
+  },
+  {
+    "marketType": 68,
+    "specifiers": "total=1.25",
+    "displayName": "HT Total Match Goals Over / Under 1.25 REMOVE",
+    "weight": 2,
+    "category": "Remove"
+  },
+  {
+    "marketType": 68,
+    "specifiers": "total=1.75",
+    "displayName": "HT Total Match Goals Over / Under 1.75 REMOVE",
+    "weight": 2,
+    "category": "Remove"
+  },
+  {
+    "marketType": 68,
+    "specifiers": "total=0.75",
+    "displayName": "HT Total Match Goals Over / Under .75 REMOVE",
+    "weight": 2,
+    "category": "Remove"
+  },
+  {
+    "marketType": 83,
+    "specifiers": "",
+    "displayName": "2nd Half Result",
+    "weight": 2,
+    "category": "Main"
+  },
+  {
+    "marketType": 90,
+    "specifiers": "total=2",
+    "displayName": "FT Total Match Goals Over / Under 2 REMOVE",
+    "weight": 3,
+    "category": "Remove"
+  },
+  {
+    "marketType": 90,
+    "specifiers": "total=1.75",
+    "displayName": "FT Total Match Goals Over / Under 1.75 REMOVE",
+    "weight": 3,
+    "category": "Remove"
+  },
+  {
+    "marketType": 90,
+    "specifiers": "total=2.5",
+    "displayName": "FT Total Match Goals Over / Under 2.5",
+    "weight": 3,
+    "category": "Totals"
+  },
+  {
+    "marketType": 90,
+    "specifiers": "total=1.5",
+    "displayName": "FT Total Match Goals Over / Under 1.5",
+    "weight": 3,
+    "category": "Totals"
+  },
+  {
+    "marketType": 90,
+    "specifiers": "total=0.5",
+    "displayName": "FT Total Match Goals Over / Under .5",
+    "weight": 3,
+    "category": "Totals"
+  },
+  {
+    "marketType": 90,
+    "specifiers": "total=1.25",
+    "displayName": "FT Total Match Goals Over / Under 1.25 Remove",
+    "weight": 3,
+    "category": "Remove"
+  },
+  {
+    "marketType": 90,
+    "specifiers": "total=1.75",
+    "displayName": "FT Total Match Goals Over / Under 1.75 Remove",
+    "weight": 3,
+    "category": "Remove"
+  },
+  {
+    "marketType": 90,
+    "specifiers": "total=0.75",
+    "displayName": "FT Total Match Goals Over / Under 0.75 Remove",
+    "weight": 3,
+    "category": "Remove"
+  },
+  {
+    "marketType": 90,
+    "specifiers": "total=1",
+    "displayName": "FT Total Match Goals Over / Under 1 Remove",
+    "weight": 3,
+    "category": "Remove"
+  }
+]
