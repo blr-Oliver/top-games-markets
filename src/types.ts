@@ -23,7 +23,7 @@ export interface Market {
   specifiers: string;
   status: Status;
   favourite: booleanAsInt;
-  Outcomes: Outcome[] | OutcomeGroup[];
+  Outcomes: Outcome[];
 }
 
 export interface MarketFormat {
@@ -34,7 +34,9 @@ export interface MarketFormat {
   category: string;
 }
 
-export interface MarketEx extends Market, MarketFormat {}
+export interface MarketEx extends Market, MarketFormat {
+  groupedOutcomes?: OutcomeGroup[];
+}
 
 export interface MarketCategoryBucket {
   name: string;
