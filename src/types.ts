@@ -28,3 +28,10 @@ export interface MarketFormat {
   weight: number;
   category: string;
 }
+
+export interface MarketEx extends Market, MarketFormat {}
+
+export interface MarketCategoryBucket {
+  name: string;
+  markets: MarketEx[];
+}
