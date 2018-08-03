@@ -4,7 +4,7 @@ Here is JSON data processor along with involved type definitions.
 ### Usage
 Call `formatMarkets(markets, formats, settings?)` from `src/MarketFormatter.ts` to process the data.
 
-#### Settings
+### Settings
 Processor settings support features:
  + `copyOnWrite` (default = `true`): if `false`, `MarketFormat` properties are added directly to the `Market` objects when merging, otherwise new objects are created
  + `marketTypes` (default = `[45]`): list of market types to which apply outcome grouping
@@ -13,7 +13,9 @@ Processor settings support features:
  + `qualifierCallback`: callback used for `callback` strategy
 
 `mapping` strategy requires predefined map of outcome's `naturalId` values to marker.
-`callback` strategy requires qualifier function that is passed an `Outcome` object and is expected to return marker. 
+
+`callback` strategy requires qualifier function that is passed an `Outcome` object and is expected to return marker.
+ 
 Settings can be omitted, then default values will be used. However, partial settings are not supported (except `qualifierMapping` and `qualifierCallback` fields, which can fallback to default, see below)
 
 #### Default mapping
