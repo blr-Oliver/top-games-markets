@@ -26,7 +26,7 @@ const DEFAULT_CALLBACK = function (outcome: Outcome): OutcomeMarker {
 
 const DEFAULT_SETTINGS: FormatSettings = {
   copyOnWrite: true,
-  marketTypes: [45],
+  marketTypes: [41],
   qualifierStrategy: 'mapping'
 };
 
