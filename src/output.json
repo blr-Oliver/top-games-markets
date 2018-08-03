@@ -909,195 +909,7 @@
         ],
         "displayName": "Correct Score",
         "weight": 1,
-        "category": "Scores",
-        "groupedOutcomes": [
-          {
-            "Unknown": [
-              {
-                "id": 70341879,
-                "name": "0:0",
-                "naturalId": "274",
-                "odds": "16.0000",
-                "active": true
-              },
-              {
-                "id": 70341870,
-                "name": "1:0",
-                "naturalId": "276",
-                "odds": "6.8000",
-                "active": true
-              },
-              {
-                "id": 70341871,
-                "name": "2:0",
-                "naturalId": "278",
-                "odds": "5.6000",
-                "active": true
-              },
-              {
-                "id": 70341873,
-                "name": "3:0",
-                "naturalId": "280",
-                "odds": "6.8000",
-                "active": true
-              },
-              {
-                "id": 70341876,
-                "name": "4:0",
-                "naturalId": "282",
-                "odds": "11.0000",
-                "active": true
-              },
-              {
-                "id": 70341883,
-                "name": "0:1",
-                "naturalId": "284",
-                "odds": "21.0000",
-                "active": true
-              },
-              {
-                "id": 70341880,
-                "name": "1:1",
-                "naturalId": "286",
-                "odds": "8.5000",
-                "active": true
-              },
-              {
-                "id": 70341872,
-                "name": "2:1",
-                "naturalId": "288",
-                "odds": "7.5000",
-                "active": true
-              },
-              {
-                "id": 70341874,
-                "name": "3:1",
-                "naturalId": "290",
-                "odds": "9.0000",
-                "active": true
-              },
-              {
-                "id": 70341877,
-                "name": "4:1",
-                "naturalId": "292",
-                "odds": "15.0000",
-                "active": true
-              },
-              {
-                "id": 70341884,
-                "name": "0:2",
-                "naturalId": "294",
-                "odds": "51.0000",
-                "active": true
-              },
-              {
-                "id": 70341885,
-                "name": "1:2",
-                "naturalId": "296",
-                "odds": "23.0000",
-                "active": true
-              },
-              {
-                "id": 70341881,
-                "name": "2:2",
-                "naturalId": "298",
-                "odds": "19.0000",
-                "active": true
-              },
-              {
-                "id": 70341875,
-                "name": "3:2",
-                "naturalId": "300",
-                "odds": "23.0000",
-                "active": true
-              },
-              {
-                "id": 70341878,
-                "name": "4:2",
-                "naturalId": "302",
-                "odds": "41.0000",
-                "active": true
-              },
-              {
-                "id": 70341886,
-                "name": "0:3",
-                "naturalId": "304",
-                "odds": "101.0000",
-                "active": true
-              },
-              {
-                "id": 70341887,
-                "name": "1:3",
-                "naturalId": "306",
-                "odds": "81.0000",
-                "active": true
-              },
-              {
-                "id": 70341888,
-                "name": "2:3",
-                "naturalId": "308",
-                "odds": "67.0000",
-                "active": true
-              },
-              {
-                "id": 70341882,
-                "name": "3:3",
-                "naturalId": "310",
-                "odds": "81.0000",
-                "active": true
-              },
-              {
-                "id": 70341893,
-                "name": "4:3",
-                "naturalId": "312",
-                "odds": "101.0000",
-                "active": true
-              },
-              {
-                "id": 70341889,
-                "name": "0:4",
-                "naturalId": "314",
-                "odds": "101.0000",
-                "active": true
-              },
-              {
-                "id": 70341890,
-                "name": "1:4",
-                "naturalId": "316",
-                "odds": "101.0000",
-                "active": true
-              },
-              {
-                "id": 70341891,
-                "name": "2:4",
-                "naturalId": "318",
-                "odds": "101.0000",
-                "active": true
-              },
-              {
-                "id": 70341892,
-                "name": "3:4",
-                "naturalId": "320",
-                "odds": "101.0000",
-                "active": true
-              },
-              {
-                "id": 70341894,
-                "name": "4:4",
-                "naturalId": "322",
-                "odds": "101.0000",
-                "active": true
-              },
-              {
-                "id": 70341895,
-                "name": "other",
-                "naturalId": "324",
-                "odds": "6.6000",
-                "active": true
-              }
-            ]
-          }
-        ]
+        "category": "Scores"
       },
       {
         "id": 20522813,
@@ -1306,7 +1118,217 @@
         ],
         "displayName": "Correct Score 0:0",
         "weight": 2,
-        "category": "Scores"
+        "category": "Scores",
+        "groupedOutcomes": [
+          {
+            "Draw": [
+              {
+                "id": 70341953,
+                "name": "0:0",
+                "naturalId": "110",
+                "odds": "15.0000",
+                "active": true
+              },
+              {
+                "id": 70341954,
+                "name": "1:1",
+                "naturalId": "128",
+                "odds": "8.5000",
+                "active": true
+              },
+              {
+                "id": 70341955,
+                "name": "2:2",
+                "naturalId": "142",
+                "odds": "17.0000",
+                "active": true
+              },
+              {
+                "id": 70341956,
+                "name": "3:3",
+                "naturalId": "154",
+                "odds": "81.0000",
+                "active": true
+              }
+            ]
+          },
+          {
+            "Home": [
+              {
+                "id": 70341941,
+                "name": "1:0",
+                "naturalId": "114",
+                "odds": "6.5000",
+                "active": true
+              },
+              {
+                "id": 70341942,
+                "name": "2:0",
+                "naturalId": "116",
+                "odds": "5.5000",
+                "active": true
+              },
+              {
+                "id": 70341944,
+                "name": "3:0",
+                "naturalId": "118",
+                "odds": "6.6000",
+                "active": true
+              },
+              {
+                "id": 70341947,
+                "name": "4:0",
+                "naturalId": "120",
+                "odds": "11.0000",
+                "active": true
+              },
+              {
+                "id": 70341950,
+                "name": "5:0",
+                "naturalId": "122",
+                "odds": "21.0000",
+                "active": true
+              },
+              {
+                "id": 70341952,
+                "name": "6:0",
+                "naturalId": "124",
+                "odds": "51.0000",
+                "active": true
+              },
+              {
+                "id": 70341943,
+                "name": "2:1",
+                "naturalId": "130",
+                "odds": "7.0000",
+                "active": true
+              },
+              {
+                "id": 70341945,
+                "name": "3:1",
+                "naturalId": "132",
+                "odds": "8.5000",
+                "active": true
+              },
+              {
+                "id": 70341948,
+                "name": "4:1",
+                "naturalId": "134",
+                "odds": "13.0000",
+                "active": true
+              },
+              {
+                "id": 70341951,
+                "name": "5:1",
+                "naturalId": "136",
+                "odds": "29.0000",
+                "active": true
+              },
+              {
+                "id": 70341946,
+                "name": "3:2",
+                "naturalId": "144",
+                "odds": "23.0000",
+                "active": true
+              },
+              {
+                "id": 70341949,
+                "name": "4:2",
+                "naturalId": "146",
+                "odds": "34.0000",
+                "active": true
+              }
+            ]
+          },
+          {
+            "Away": [
+              {
+                "id": 70341957,
+                "name": "0:1",
+                "naturalId": "126",
+                "odds": "21.0000",
+                "active": true
+              },
+              {
+                "id": 70341958,
+                "name": "0:2",
+                "naturalId": "138",
+                "odds": "51.0000",
+                "active": true
+              },
+              {
+                "id": 70341959,
+                "name": "1:2",
+                "naturalId": "140",
+                "odds": "21.0000",
+                "active": true
+              },
+              {
+                "id": 70341960,
+                "name": "0:3",
+                "naturalId": "148",
+                "odds": "101.0000",
+                "active": true
+              },
+              {
+                "id": 70341961,
+                "name": "1:3",
+                "naturalId": "150",
+                "odds": "81.0000",
+                "active": true
+              },
+              {
+                "id": 70341962,
+                "name": "2:3",
+                "naturalId": "152",
+                "odds": "67.0000",
+                "active": true
+              },
+              {
+                "id": 70341963,
+                "name": "0:4",
+                "naturalId": "156",
+                "odds": "101.0000",
+                "active": true
+              },
+              {
+                "id": 70341964,
+                "name": "1:4",
+                "naturalId": "158",
+                "odds": "101.0000",
+                "active": true
+              },
+              {
+                "id": 70341965,
+                "name": "2:4",
+                "naturalId": "160",
+                "odds": "101.0000",
+                "active": true
+              },
+              {
+                "id": 70341966,
+                "name": "0:5",
+                "naturalId": "162",
+                "odds": "101.0000",
+                "active": true
+              },
+              {
+                "id": 70341967,
+                "name": "1:5",
+                "naturalId": "164",
+                "odds": "101.0000",
+                "active": true
+              },
+              {
+                "id": 70341968,
+                "name": "0:6",
+                "naturalId": "166",
+                "odds": "101.0000",
+                "active": true
+              }
+            ]
+          }
+        ]
       },
       {
         "id": 20522794,

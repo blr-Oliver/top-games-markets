@@ -11,7 +11,7 @@ export type FormatSettings = {
 };
 
 const DEFAULT_MAPPING = buildMapping({
-  [OutcomeMarker.Home]: [114, 118, 120, 122, 124, 130, 132, 134, 136, 144, 146],
+  [OutcomeMarker.Home]: [114, 116, 118, 120, 122, 124, 130, 132, 134, 136, 144, 146],
   [OutcomeMarker.Draw]: [110, 128, 142, 154],
   [OutcomeMarker.Away]: [126, 138, 140, 148, 150, 152, 156, 158, 160, 162, 164, 166]
 });
