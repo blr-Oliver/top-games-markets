@@ -23,7 +23,7 @@ Default mapping is used whenever `qualifierStrategy` is `mapping` and `qualifier
 Default mapping is based on `src/market-mapping.txt` file.
 
 #### Default qualifier callback
-Default mapping is used whenever `qualifierStrategy` is `callback` and `qualifierCallback` field is missing.
+Default qualifier is used whenever `qualifierStrategy` is `callback` and `qualifierCallback` field is missing.
 Default qualifier checks for outcome's `name` field trying to split it into 2 numbers and compare them.
   
 #### Custom mapping
