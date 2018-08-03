@@ -2,7 +2,7 @@ export type intAsString = string;
 export type floatAsString = string;
 export type booleanAsInt = 0 | 1;
 export enum Status { Active = 'Active', Deactivated = 'Deactivated' }
-export enum OutcomeMarker { Home = 'Home', Draw = 'Draw' , Away = 'Away' }
+export enum OutcomeMarker { Home = 'Home', Draw = 'Draw' , Away = 'Away', Unknown = 'Unknown' }
 
 export interface Outcome {
   id: number;
