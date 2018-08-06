@@ -13,7 +13,8 @@ export interface Outcome {
 }
 
 export interface OutcomeGroup {
-  [id: string]: Outcome[];
+  marker: OutcomeMarker;
+  outcomes: Outcome[];
 }
 
 export interface Market {

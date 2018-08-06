@@ -110,7 +110,8 @@ export const formatMarkets: MarketFormatter = function (
     const result: OutcomeGroup[] = [];
     for (let marker in groups)
       result.push({
-        [marker]: groups[marker]
+        marker: <OutcomeMarker> marker,
+        outcomes: groups[marker]
       });
     return result;
   }
