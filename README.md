@@ -7,7 +7,7 @@ Call `formatMarkets(markets, formats, settings?)` from `src/MarketFormatter.ts` 
 ### Settings
 Processor settings support features:
  + `copyOnWrite` (default = `true`): if `false`, `MarketFormat` properties are added directly to the `Market` objects when merging, otherwise new objects are created
- + `marketTypes` (default = `[45]`): list of market types to which apply outcome grouping
+ + `marketTypes` (default = `[41]`): list of market types to which apply outcome grouping
  + `qualifierStrategy: 'mapping' | 'callback'` (default: `'mapping'`): strategy to use when determining outcome group
  + `qualifierMapping`: mapping used for `mapping` strategy
  + `qualifierCallback`: callback used for `callback` strategy
