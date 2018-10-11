@@ -502,5 +502,19 @@
     "displayName": "FT Total Match Goals Over / Under 1 Remove",
     "weight": 3,
     "category": "Remove"
+  },
+  {
+    "marketType": 882,
+    "specifiers": null,
+    "displayName": null,
+    "weight": 4,
+    "category": "Scorers"
+  },
+  {
+    "marketType": null,
+    "specifiers": null,
+    "displayName": "This market is missing in format.json",
+    "weight": 1,
+    "category": "Missing"
   }
 ]
