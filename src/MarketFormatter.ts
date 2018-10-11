@@ -60,7 +60,7 @@ export const formatMarkets: MarketFormatter = function (
     // I assume that tuple [marketType; specifiers] acts as unique key,
     // at most one MarketFormat exists for a given pair of values
     return formats.reduce(function (hash, format) {
-      const marketType = format.marketType, specifiers = format.specifiers || "";
+      const marketType = format.marketType || "", specifiers = format.specifiers || "";
       if (!(marketType in hash)) hash[marketType] = {};
       hash[marketType][specifiers] = format;
       return hash;
@@ -69,12 +69,29 @@ export const formatMarkets: MarketFormatter = function (
 
   function mergeMarketsWithFormats(formatMapping: FormatMapping) {
     return markets.map(function (market): MarketEx {
-      const marketType = market.marketType, specifiers = market.specifiers || "";
+      let marketType = market.marketType || "",
+          specifiers = market.specifiers || "";
+      if(!(marketType in formatMapping)) marketType = "";
+      const formatGroup = formatMapping[marketType];
+      if(!formatGroup) {
+        console.warn(`No match for market type [${market.marketType}]`);
+        return null;
+      }
+      if(!(specifiers in formatGroup)) specifiers = "";
       const format: MarketFormat = formatMapping[marketType][specifiers];
+      if(!format) {
+        console.warn(`No match for market type [${market.marketType}] with specifiers [${market.specifiers}]`);
+        return null;
+      }
       // beware, Object.assign is ES2016
       return settings.copyOnWrite ?
-        <MarketEx> Object.assign({}, market, format) :
-        <MarketEx> Object.assign(market, format);
+        <MarketEx> Object.assign({}, format, market) :
+        <MarketEx> Object.assign(format, market);
+    }).filter(x => !!x)
+      .map(market => {
+      if(!market.displayName)
+        market.displayName = market.name;
+      return market;
     });
   }
 
